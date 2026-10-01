@@ -1,0 +1,14 @@
+{
+  "name": "reno-design-tool",
+  "version": "1.0.0",
+  "description": "单文件 2D/3D 户型装修设计台（Canvas 施工图 + three.js 漫游 + Playwright 交互验收）",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "record": "node scripts/record-demo.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.58.2"
+  }
+}
